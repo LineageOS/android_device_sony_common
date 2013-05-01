@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfX///34\u003d",
+        "filename": "XperiaSettings/res/values-it/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 3184
+      },
+      "writtenOn": "2013-05-01T15:04:16Z",
+      "side": 1,
+      "message": "Mancherebbe la definizione dello schema\n\u003cresources xmlns:xliff\u003d\"urn:oasis:names:tc:xliff:document:1.2\"\u003e",
+      "revId": "4977a349ae5909dc46ce7353946dcb301c61ce58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///4A\u003d",
+        "filename": "XperiaSettings/res/values-it/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 3184
+      },
+      "writtenOn": "2013-05-01T15:04:16Z",
+      "side": 1,
+      "message": "Non inseriamo ne linee vuote ne commenti",
+      "revId": "4977a349ae5909dc46ce7353946dcb301c61ce58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///38\u003d",
+        "filename": "XperiaSettings/res/values-it/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 3184
+      },
+      "writtenOn": "2013-05-01T15:04:16Z",
+      "side": 1,
+      "message": "\"dell\" dovrebbe essere sostituito con \"del\"",
+      "revId": "4977a349ae5909dc46ce7353946dcb301c61ce58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
