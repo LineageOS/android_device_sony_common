@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfX///7c\u003d",
+        "filename": "XperiaSettings/res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-05-01T03:57:54Z",
+      "side": 1,
+      "message": "Respuesta háptica",
+      "revId": "eccb06ef6d21a736ffe33f79faea1a63e1d95209",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAfX///7Y\u003d",
+        "filename": "XperiaSettings/res/values-es/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2013-05-01T03:57:54Z",
+      "side": 1,
+      "message": "\"No se recomienda utilizar valores superiores a ...\" sounds better for me.",
+      "revId": "eccb06ef6d21a736ffe33f79faea1a63e1d95209",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
