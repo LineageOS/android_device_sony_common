@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAfX///3U\u003d",
+        "filename": "XperiaSettings/res/values-it/strings.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 3184
+      },
+      "writtenOn": "2013-05-01T15:20:08Z",
+      "side": 1,
+      "message": "\"dell\" in \"del\" e, scusami ma non avevo notato \"aptio\" in \"aptico\"",
+      "revId": "24c14c87c64073926dc5ddcf0abbe1c17199ef99",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
