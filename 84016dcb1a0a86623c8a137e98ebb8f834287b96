@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_b5e4930d",
+        "filename": "fix_data.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 10664
+      },
+      "writtenOn": "2014-09-08T19:17:54Z",
+      "side": 1,
+      "message": "This pipe doesn\u0027t seem to work, at least on my system.  This way seems to work as expected, and with more strict matching:\n\nbusybox grep -q \"^\\s*ro\\\\.semc\\\\.\" /system/build.prop; busybox echo $?",
+      "revId": "84016dcb1a0a86623c8a137e98ebb8f834287b96",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
