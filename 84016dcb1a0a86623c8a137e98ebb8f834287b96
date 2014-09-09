@@ -16,6 +16,24 @@
       "revId": "84016dcb1a0a86623c8a137e98ebb8f834287b96",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_cbf9aeca",
+        "filename": "fix_data.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-09-09T20:51:36Z",
+      "side": 1,
+      "message": "I\u0027ll change the pipe to \u0027;\u0027 in this patch if you don\u0027t mind.\n\nAs for the regular expression, did you mean to use \"\\.\" rather than \"\\\\.\"?",
+      "parentUuid": "7a1b2928_b5e4930d",
+      "revId": "84016dcb1a0a86623c8a137e98ebb8f834287b96",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
