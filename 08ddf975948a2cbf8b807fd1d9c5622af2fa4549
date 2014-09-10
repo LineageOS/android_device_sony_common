@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_6b033a74",
+        "filename": "fix_data.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 10664
+      },
+      "writtenOn": "2014-09-10T05:31:58Z",
+      "side": 1,
+      "message": "I was escaping the slash for the shell.  Looks like it\u0027s not necessary.",
+      "revId": "08ddf975948a2cbf8b807fd1d9c5622af2fa4549",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
