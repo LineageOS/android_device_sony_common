@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac665da_1d5afe83",
+        "filename": "keycheck/keycheck.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-03-22T17:54:03Z",
+      "side": 1,
+      "message": "TODO: Less hardcoding.",
+      "revId": "1c9e5b170e9657a6265d8e2c8e2735372a0d4858",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
