@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_b44e41bf",
+        "filename": "init_sony/Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-01-14T01:42:19Z",
+      "side": 1,
+      "message": "BOARD_something_BOARD?\n\nHow about something like TARGET (or BOARD, as appropriate)_SONY_INIT_FILE, or something like that.",
+      "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_d44bcdad",
+        "filename": "init_sony/Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-01-14T01:42:19Z",
+      "side": 1,
+      "message": "Isn\u0027t this enabled by default now?",
+      "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_74c69919",
+        "filename": "init_sony/init_board.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-01-14T01:42:19Z",
+      "side": 1,
+      "message": "dev_major and minor can be determined from the partition.\n\nApart from that,\ndid you look into using some of the bootdevice code from init instead of hardcoding this?",
+      "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_d4e0ad99",
+        "filename": "init_sony/init_common.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-01-14T01:42:19Z",
+      "side": 1,
+      "message": "This could vary per kernel, so definitely not common.",
+      "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_54eefd88",
+        "filename": "init_sony/init_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-01-14T01:42:19Z",
+      "side": 1,
+      "message": "We could replace the grep with a few lines of C code\n\nSomething like https://github.com/CyanogenMod/android_device_sony_rhine-common/blob/cm-13.0/init/init_rhine.cpp#L27",
+      "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_f402893e",
+        "filename": "init_sony/init_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-01-14T01:42:19Z",
+      "side": 1,
+      "message": "Did you look into making keycheck a library and hooking into that directly?\n\nOr just moving that code here, no need to have it as a separate executable now.",
+      "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_b4fc013f",
+        "filename": "init_sony/init_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-01-14T01:42:19Z",
+      "side": 1,
+      "message": "Same here with making extract_elf_ramdisk into a library.",
+      "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
