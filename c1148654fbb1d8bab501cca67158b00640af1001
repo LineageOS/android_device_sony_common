@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1fcbff3d_b7c88374",
+        "filename": "init_sony/Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-01-15T05:30:00Z",
+      "side": 1,
+      "message": "Right !",
+      "parentUuid": "1fcbff3d_b44e41bf",
+      "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1fcbff3d_d44bcdad",
         "filename": "init_sony/Android.mk",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2016-01-14T01:42:19Z",
       "side": 1,
       "message": "Isn\u0027t this enabled by default now?",
+      "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_f7ce0b82",
+        "filename": "init_sony/Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-01-15T05:30:00Z",
+      "side": 1,
+      "message": "I prefer setting it, and this is set in system_core/init too.",
+      "parentUuid": "1fcbff3d_d44bcdad",
       "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "1fcbff3d_439e4108",
+        "filename": "init_sony/init_board.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-01-15T05:30:00Z",
+      "side": 1,
+      "message": "Started working on it but it\u0027s completely not worth implementing fully, having the override if required is ok.",
+      "parentUuid": "1fcbff3d_74c69919",
+      "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1fcbff3d_d4e0ad99",
         "filename": "init_sony/init_common.h",
         "patchSetId": 3
@@ -64,6 +118,24 @@
       "writtenOn": "2016-01-14T01:42:19Z",
       "side": 1,
       "message": "This could vary per kernel, so definitely not common.",
+      "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_238535ae",
+        "filename": "init_sony/init_common.h",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-01-15T05:30:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1fcbff3d_d4e0ad99",
       "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "1fcbff3d_c391d1f3",
+        "filename": "init_sony/init_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-01-15T05:30:00Z",
+      "side": 1,
+      "message": "Was waiting to finish the new PS to share it.\nDone the same way the system_core/init does the grep.",
+      "parentUuid": "1fcbff3d_54eefd88",
+      "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1fcbff3d_f402893e",
         "filename": "init_sony/init_main.cpp",
         "patchSetId": 3
@@ -98,6 +188,24 @@
       "writtenOn": "2016-01-14T01:42:19Z",
       "side": 1,
       "message": "Did you look into making keycheck a library and hooking into that directly?\n\nOr just moving that code here, no need to have it as a separate executable now.",
+      "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_d773cf4c",
+        "filename": "init_sony/init_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-01-15T05:30:00Z",
+      "side": 1,
+      "message": "As we talked, shouldn\u0027t be done as the keycheck can run and stop in background, allow the board introduction to run and be stopped after the delay decided.",
+      "parentUuid": "1fcbff3d_f402893e",
       "revId": "c1148654fbb1d8bab501cca67158b00640af1001",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
