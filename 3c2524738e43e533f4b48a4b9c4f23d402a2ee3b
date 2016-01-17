@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_e3f2c89a",
+        "filename": "init/init_main.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-01-17T01:14:33Z",
+      "side": 1,
+      "message": "Good enough.\nCould also call keycheck directly if we had a proper timer here.",
+      "range": {
+        "startLine": 75,
+        "startChar": 8,
+        "endLine": 75,
+        "endChar": 33
+      },
+      "revId": "3c2524738e43e533f4b48a4b9c4f23d402a2ee3b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_03f03490",
+        "filename": "init/init_main.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-01-17T01:14:33Z",
+      "side": 1,
+      "message": "The animation part is applicable only for huashan.\nEverything else just does a simple led enable.",
+      "revId": "3c2524738e43e533f4b48a4b9c4f23d402a2ee3b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_a32a80e4",
+        "filename": "init/init_main.cpp",
+        "patchSetId": 6
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-01-17T01:14:33Z",
+      "side": 1,
+      "message": "This leaves it to wait for 3s even if the key is pressed immediately.",
+      "range": {
+        "startLine": 82,
+        "startChar": 8,
+        "endLine": 82,
+        "endChar": 35
+      },
+      "revId": "3c2524738e43e533f4b48a4b9c4f23d402a2ee3b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
