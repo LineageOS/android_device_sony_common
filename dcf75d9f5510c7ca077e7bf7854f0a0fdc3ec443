@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_58fa9542",
+        "filename": "init/init_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-01-22T22:42:54Z",
+      "side": 1,
+      "message": "This is wrong, it\u0027s not what it\u0027s meant for.\n\nHuashan has a KEYCHECK_TIMEOUT set to 0 to avoid the timeout because I have a LEDs wave animation, hence no basic timeout to wait.",
+      "revId": "dcf75d9f5510c7ca077e7bf7854f0a0fdc3ec443",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_38fd493a",
+        "filename": "init/init_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-01-22T22:42:54Z",
+      "side": 1,
+      "message": "This is the keycheck launch CM Recovery, without a FOTA check before loading CM Recovery if none found.",
+      "revId": "dcf75d9f5510c7ca077e7bf7854f0a0fdc3ec443",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_189acd13",
+        "filename": "init/init_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-01-22T22:42:54Z",
+      "side": 1,
+      "message": "Meant to log the FOTA partition number right ?",
+      "revId": "dcf75d9f5510c7ca077e7bf7854f0a0fdc3ec443",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_b89e1905",
+        "filename": "init/init_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-01-22T22:42:54Z",
+      "side": 1,
+      "message": "I had the check on an old version, forgot to add it back, good catch.",
+      "revId": "dcf75d9f5510c7ca077e7bf7854f0a0fdc3ec443",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
