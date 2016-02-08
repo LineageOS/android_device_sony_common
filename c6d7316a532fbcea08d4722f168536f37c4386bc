@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_b3466a4f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-02-08T21:02:32Z",
+      "side": 1,
+      "message": "override seems to be the wrong word here.",
+      "range": {
+        "startLine": 34,
+        "startChar": 8,
+        "endLine": 34,
+        "endChar": 16
+      },
+      "revId": "c6d7316a532fbcea08d4722f168536f37c4386bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_5375ae97",
+        "filename": "init/init_board.h",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-02-08T21:02:32Z",
+      "side": 1,
+      "message": "I\u0027d move this below fota_num to make it like\nmajor\nminor\nfota num\nfota major\nfota minor\n\nWould look better than this.",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 6
+      },
+      "revId": "c6d7316a532fbcea08d4722f168536f37c4386bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
