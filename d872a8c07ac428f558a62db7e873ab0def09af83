@@ -59,6 +59,24 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_50192486",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 2147
+      },
+      "writtenOn": "2016-02-08T20:44:49Z",
+      "side": 1,
+      "message": "I just added it to the comment for clarity.",
+      "parentUuid": "ffb9cba7_103acce6",
+      "revId": "d872a8c07ac428f558a62db7e873ab0def09af83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_f07298e3",
         "filename": "init/init_board.h",
         "patchSetId": 1
@@ -70,6 +88,24 @@
       "writtenOn": "2016-02-08T20:37:44Z",
       "side": 1,
       "message": "This could be DEV_BLOCK_FOTA_MAJOR",
+      "revId": "d872a8c07ac428f558a62db7e873ab0def09af83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_b02ae08d",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 2147
+      },
+      "writtenOn": "2016-02-08T20:44:49Z",
+      "side": 1,
+      "message": "These seem like better names, I\u0027ll switch.",
+      "parentUuid": "ffb9cba7_f07298e3",
       "revId": "d872a8c07ac428f558a62db7e873ab0def09af83",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
