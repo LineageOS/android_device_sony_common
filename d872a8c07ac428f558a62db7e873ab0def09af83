@@ -1,0 +1,95 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_907f9caa",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-02-08T20:37:44Z",
+      "side": 1,
+      "message": "minor is actually 0",
+      "range": {
+        "startLine": 34,
+        "startChar": 43,
+        "endLine": 34,
+        "endChar": 51
+      },
+      "revId": "d872a8c07ac428f558a62db7e873ab0def09af83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_d023d4bd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-02-08T20:37:44Z",
+      "side": 1,
+      "message": "So in the end this would be\n#define DEV_BLOCK_FOTA_NUM 32\n#define DEV_BLOCK_FOTA_MAJOR 259\n#define DEV_BLOCK_FOTA_MINOR 0",
+      "revId": "d872a8c07ac428f558a62db7e873ab0def09af83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_103acce6",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-02-08T20:37:44Z",
+      "side": 1,
+      "message": "This shouldn\u0027t need to be overriden.\n\nIf you don\u0027t change it, that\u0027s fine too.",
+      "revId": "d872a8c07ac428f558a62db7e873ab0def09af83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_f07298e3",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-02-08T20:37:44Z",
+      "side": 1,
+      "message": "This could be DEV_BLOCK_FOTA_MAJOR",
+      "revId": "d872a8c07ac428f558a62db7e873ab0def09af83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_f05b7851",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-02-08T20:37:44Z",
+      "side": 1,
+      "message": "This is DEV_BLOCK_FOTA_MINOR",
+      "revId": "d872a8c07ac428f558a62db7e873ab0def09af83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
