@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_d5c5c63d",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-03-06T12:22:22Z",
+      "side": 0,
+      "message": "The line inheriting this can be replaced with\nBOARD_VENDOR :\u003d sony",
+      "revId": "26fbf60d9e4178782944101f1018856da6d3e045",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

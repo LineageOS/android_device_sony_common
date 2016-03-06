@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_35c78248",
+        "filename": "Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-03-06T12:22:22Z",
+      "side": 1,
+      "message": "This could be kept as is",
+      "revId": "65b628400ba1a2d83cc264490d66685d1525bb68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
