@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_a9044c4b",
+        "filename": "init/init_main.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-05-21T17:31:57Z",
+      "side": 1,
+      "message": "Ok with the whole commit \u0026 explanation,\nexcept this is wrong, it shouldn\u0027t be the major but the minor,\nas it can be seen by the _NUM usage on the actual code.",
+      "revId": "684b79f44498e4a3f53bc3b3b307f23cfb208aef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
