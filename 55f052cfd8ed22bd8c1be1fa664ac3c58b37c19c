@@ -107,6 +107,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_a96d2c33",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-05-21T16:12:54Z",
+      "side": 1,
+      "message": "It\u0027s not used in that commit.\n\nThis wouldn\u0027t change because these numbers are what the kernel uses, and has been since a long time.\n\nSee https://www.kernel.org/doc/Documentation/input/input.txt",
+      "parentUuid": "5faad753_891dd0be",
+      "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_694974ce",
         "filename": "init/init_board.h",
         "patchSetId": 1
@@ -171,6 +189,23 @@
       "side": 1,
       "message": "Main answer.",
       "parentUuid": "5faad753_2915bc9c",
+      "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_c968a822",
+        "filename": "init/init_main.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-05-21T16:12:54Z",
+      "side": 1,
+      "message": "The major,minor for input nodes starts from 13,64 just like 1,3 means /dev/null on linux.",
       "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
