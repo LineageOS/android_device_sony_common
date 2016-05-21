@@ -125,6 +125,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_294dbc99",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-05-21T20:21:11Z",
+      "side": 1,
+      "message": "My bad, didn\u0027t see it was input instead of the block ones.\nSo yeah, the inputs don\u0027t really need configuration.",
+      "parentUuid": "5faad753_a96d2c33",
+      "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_694974ce",
         "filename": "init/init_board.h",
         "patchSetId": 1
