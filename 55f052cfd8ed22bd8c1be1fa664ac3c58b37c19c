@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_497d98e5",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-05-21T16:06:33Z",
+      "side": 1,
+      "message": "I remember seing someone do something with it but not sure, anyways I prefer keeping it open but clean like this.",
+      "parentUuid": "5faad753_0939e03f",
+      "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_a93f6c23",
         "filename": "init/init_board.h",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2016-05-21T15:52:48Z",
       "side": 1,
       "message": "This wouldn\u0027t really change.",
+      "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_297a9cf0",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-05-21T16:06:33Z",
+      "side": 1,
+      "message": "Agreed. But well..",
+      "parentUuid": "5faad753_a93f6c23",
       "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_891dd0be",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-05-21T16:06:33Z",
+      "side": 1,
+      "message": "I really prefer keeping this clean \u0026 saved here, and for a fact it\u0027s used in the other old commit we just commented in.",
+      "parentUuid": "5faad753_c93ae832",
+      "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_694974ce",
         "filename": "init/init_board.h",
         "patchSetId": 1
@@ -70,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "5faad753_6922d402",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-05-21T16:06:33Z",
+      "side": 1,
+      "message": "Same as above xD.",
+      "parentUuid": "5faad753_694974ce",
+      "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5faad753_2915bc9c",
         "filename": "init/init_board.h",
         "patchSetId": 1
@@ -81,6 +153,24 @@
       "writtenOn": "2016-05-21T15:52:48Z",
       "side": 1,
       "message": "I agree with Adam, though I don\u0027t mind having this as an option for now.",
+      "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_a928cce1",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-05-21T16:06:33Z",
+      "side": 1,
+      "message": "Main answer.",
+      "parentUuid": "5faad753_2915bc9c",
       "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
