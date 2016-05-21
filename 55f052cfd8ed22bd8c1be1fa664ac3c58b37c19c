@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_0939e03f",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-05-21T15:52:48Z",
+      "side": 1,
+      "message": "Would this ever be anything else?",
+      "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_a93f6c23",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-05-21T15:52:48Z",
+      "side": 1,
+      "message": "This wouldn\u0027t really change.",
+      "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_c93ae832",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-05-21T15:52:48Z",
+      "side": 1,
+      "message": "Would this?\nPerhaps when number of input devices exceeds a certain number. But is that even possible for us?\n\nEven then, that would have to be dealt with programmatically.",
+      "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_694974ce",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-05-21T15:52:48Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_2915bc9c",
+        "filename": "init/init_board.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-05-21T15:52:48Z",
+      "side": 1,
+      "message": "I agree with Adam, though I don\u0027t mind having this as an option for now.",
+      "revId": "55f052cfd8ed22bd8c1be1fa664ac3c58b37c19c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
