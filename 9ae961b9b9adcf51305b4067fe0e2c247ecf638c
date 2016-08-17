@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_85ed1927",
+        "filename": "init/init_ramdisk.cpp",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-08-17T14:05:47Z",
+      "side": 1,
+      "message": "Could use a list for the files below.",
+      "revId": "9ae961b9b9adcf51305b4067fe0e2c247ecf638c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
