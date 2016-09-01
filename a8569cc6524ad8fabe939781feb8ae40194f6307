@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_e25935fe",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-09-01T14:39:33Z",
+      "side": 1,
+      "message": "Why? down wouldn\u0027t do anything.",
+      "revId": "a8569cc6524ad8fabe939781feb8ae40194f6307",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_025fb1e2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-09-01T14:39:33Z",
+      "side": 1,
+      "message": "Bad hardcoding.",
+      "revId": "a8569cc6524ad8fabe939781feb8ae40194f6307",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
