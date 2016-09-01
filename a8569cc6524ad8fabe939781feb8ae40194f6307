@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1fa4df85_222e6d43",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-09-01T18:31:20Z",
+      "side": 1,
+      "message": "Alin\u0027s request.\n\nAnd down would still be detected by keycheck, trigger a call to LEDs and vibration functions, then try to access a recovery that is local, no find it \u0026 continue to a normal boot.\n\nThe whole idea of this patch is to avoid that very \"dirty\" case in my opinion and meet Alin\u0027s requirements.",
+      "parentUuid": "1fa4df85_e25935fe",
+      "revId": "a8569cc6524ad8fabe939781feb8ae40194f6307",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1fa4df85_025fb1e2",
         "filename": "/COMMIT_MSG",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2016-09-01T14:39:33Z",
       "side": 1,
       "message": "Bad hardcoding.",
+      "revId": "a8569cc6524ad8fabe939781feb8ae40194f6307",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_423369ac",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-09-01T18:31:20Z",
+      "side": 1,
+      "message": "Agreed.",
+      "parentUuid": "1fa4df85_025fb1e2",
       "revId": "a8569cc6524ad8fabe939781feb8ae40194f6307",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
