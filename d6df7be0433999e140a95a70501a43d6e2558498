@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_f6457318",
+        "filename": "keycheck/keycheck.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-09-03T09:38:22Z",
+      "side": 1,
+      "message": "Some code is AOSP, the event handling part, it came from getevent.c\n\nFile didn\u0027t have a license header at that time but it most likely is Apache. Do check",
+      "revId": "d6df7be0433999e140a95a70501a43d6e2558498",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_d640770a",
+        "filename": "keycheck/keycheck.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-09-03T09:38:22Z",
+      "side": 1,
+      "message": "All these function comments seem redundant.\n\nAlso, I grabbed this code from getevent, might want to re-check that and bring in any updates.",
+      "revId": "d6df7be0433999e140a95a70501a43d6e2558498",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fa4df85_363c6b92",
+        "filename": "keycheck/keycheck.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-09-03T09:38:22Z",
+      "side": 1,
+      "message": "Magic numbers. I know, I picked them, just saying.",
+      "revId": "d6df7be0433999e140a95a70501a43d6e2558498",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
