@@ -41,6 +41,13 @@ do
     mkdir -p $BASE/$DIR
   fi
 
+# Fix adb permissions.
+echo "Waiting to restart adb as root..."
+adb root
+adb remount
+sleep 8
+echo "Done"
+
   if [ "x$SETUP" != "x1" ]; then
     if [ -z $LDIR ]; then
       adb pull /system/$FILE $BASE/$DEST
