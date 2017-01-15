@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba3e81b7_70ee908d",
+        "filename": "extract-files.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2017-01-15T07:27:16Z",
+      "side": 1,
+      "message": "This isn\u0027t needed",
+      "revId": "b8202504571d41a555cde024b08250c913c22e33",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba3e81b7_50f38c73",
+        "filename": "extract-files.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2017-01-15T07:27:16Z",
+      "side": 1,
+      "message": "Arbitary, doesn\u0027t have to be this long.\nNot needed now either way.\n\nAlso, it was supposed to be:\nadb root\nsleep 0.5\nadb remount",
+      "revId": "b8202504571d41a555cde024b08250c913c22e33",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
