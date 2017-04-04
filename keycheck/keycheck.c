@@ -231,9 +231,14 @@ int main(int argc, char* argv[])
                     return 1;
                 }
 
-                if (event.code == KEY_VOLUMEDOWN &&
-                        (keys & KEYCHECK_CHECK_VOLUMEDOWN) != 0) {
-                    return KEYCHECK_PRESSED_VOLUMEDOWN;
+                if (event.code == KEY_VOLUMEDOWN)
+                    if ((keys & KEYCHECK_CHECK_VOLUMEDOWN) != 0) {
+                        return KEYCHECK_PRESSED_VOLUMEDOWN;
+                    }
+                    else
+                    {
+                        return KEYCHECK_PRESSED_VOLUMEUP;
+                    }
                 }
                 else if (event.code == KEY_VOLUMEUP &&
                         (keys & KEYCHECK_CHECK_VOLUMEUP) != 0) {
