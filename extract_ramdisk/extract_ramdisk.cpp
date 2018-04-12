@@ -40,6 +40,7 @@
 #include "gelf.h"
 #include "bootimg.h"
 #include "zlib.h"
+#include <LzmaLib.h>
 
 #define ELF_RAMDISK_LOCATION 2 // Ramdisk is the second file in the image
 #define EER_DEFAULT_TMP "/tmp" // Scatch folder default location
@@ -51,6 +52,11 @@
 #ifndef PATH_MAX
 #define PATH_MAX 255
 #endif
+#define LZMA_DATA_OFFSET 13
+
+// Ramdisk compression header buffers
+const char gzip_header[] = { 0x1f, 0x8b };
+const char lzma_header[] = { 0x5d, 0x00, 0x00, 0x80, 0x00, 0xff };
 
 typedef char* byte_p;
 
@@ -92,6 +98,29 @@ size_t uncompress_gzip_memory(const byte_p compressed_data,
 	}
 	inflateEnd(&zInfo);
 	return(return_value);
+}
+
+size_t uncompress_lzma_memory(byte_p compressed_data,
+	size_t compressed_data_size, byte_p uncompressed_data,
+	size_t uncompressed_max_size) {
+	unsigned int propSize = 5;
+	Byte *prop = (Byte *)compressed_data;
+	Byte *compressed_data_start = (Byte *) compressed_data + LZMA_DATA_OFFSET;
+
+	int ret = LzmaUncompress((Byte *)uncompressed_data,
+		&uncompressed_max_size,
+		compressed_data_start,
+		&compressed_data_size,
+		prop,
+		propSize);
+
+	if (ret != SZ_OK) {
+		printf("Lzma uncompress error. Errno: 0x%x.\n", ret);
+		return -1;
+	}
+
+	// uncompressed_max_size is now the actual size of the uncompressed data.
+	return uncompressed_max_size;
 }
 
 int scan_file_for_data(char *filename, unsigned char *data, int data_size,
@@ -198,16 +227,25 @@ int copy_file_part(const char* infile, const char* outfile,
 			printf("Unable to malloc memory for gunzip.\nFailed\n");
 			return -1;
 		}
-		size_t uncompressed_size;
-		uncompressed_size = uncompress_gzip_memory(buffer, file_size,
-			uncompressed_buffer, MEMORY_BUFFER_SIZE);
+		size_t uncompressed_size = 0;
+
+		if (!memcmp(gzip_header, buffer, sizeof(gzip_header))) {
+			printf("GZIP ramdisk detected\n");
+			uncompressed_size = uncompress_gzip_memory(buffer, file_size,
+				uncompressed_buffer, MEMORY_BUFFER_SIZE);
+		} else if (!memcmp(lzma_header, buffer, sizeof(lzma_header))) {
+			printf("LZMA ramdisk detected\n");
+			uncompressed_size = uncompress_lzma_memory(buffer, file_size,
+				uncompressed_buffer, MEMORY_BUFFER_SIZE);
+		}
+
 		free(buffer);
 		if (uncompressed_size <= 0) {
 			free(uncompressed_buffer);
-			printf("Failed to gunzip\n");
+			printf("Failed to deflate\n");
 			return -1;
 		}
-		printf("Original size: %lu, gunzipped: %zu\n", file_size,
+		printf("Original size: %lu, deflated size: %zu\n", file_size,
 			uncompressed_size);
 		buffer = uncompressed_buffer;
 		file_size = uncompressed_size;
