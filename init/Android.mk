@@ -55,6 +55,7 @@ LOCAL_STATIC_LIBRARIES := \
     libbase \
     libc \
     libelf \
+    liblzma \
     libz
 
 LOCAL_CLANG := true
