@@ -126,7 +126,8 @@ int main(int argc, char** argv)
     // Boot to Recovery
     if (recoveryBoot)
     {
-        // Recovery boot
+       umount("/sbin");
+       // Recovery boot
         write_string(BOOT_TXT, "RECOVERY BOOT", true);
         init_board.introduce_recovery();
 
