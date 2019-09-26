@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "8a935d28_0c7a4cd4",
+        "filename": "init/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2019-09-26T19:51:17Z",
+      "side": 1,
+      "message": "\u003e This will break custombootimg implementations: https://github.com/LineageOS/android_device_sony_huashan/blob/lineage-16.0/boot/custombootimg.mk#L7\n\u003e \n\u003e A bringup commit will be required to adapt concerned devices, at least one to cherry-pick for reference.\n\u003e \n\u003e If you are willing to on Huashan for example, you can reference this commit and explain.\n\u003e Otherwise I\u0027ll do it whenever I have time.\n\nI kinda forgot about the custombootimg. When reconsidering the change it would probably be better to keep init_sony in $(PRODUCT_OUT)/utilities and move it from our device trees to $(TARGET_RAMDISK_OUT)/sbin/init_sony (similar to what we previously did to $(TARGET_ROOT_OUT)/sbin/init_sony or $(PRODUCT_OUT)/combinedroot/sbin/init_sony). For huashan\u0027s case from the custombootimg.mk and in my case for z3c from init/Android.mk. Which way would you prefer?",
+      "parentUuid": "8c55379b_2a7039cd",
+      "revId": "2a4e180ef8aeb62f5c52f7e15cff48a676b9eb76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8c853b91_3662da76",
         "filename": "keycheck/Android.mk",
         "patchSetId": 1
