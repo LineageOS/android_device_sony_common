@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8c55379b_2a7039cd",
+        "filename": "init/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2019-09-26T18:36:49Z",
+      "side": 1,
+      "message": "This will break custombootimg implementations: https://github.com/LineageOS/android_device_sony_huashan/blob/lineage-16.0/boot/custombootimg.mk#L7\n\nA bringup commit will be required to adapt concerned devices, at least one to cherry-pick for reference.\n\nIf you are willing to on Huashan for example, you can reference this commit and explain.\nOtherwise I\u0027ll do it whenever I have time.",
+      "revId": "2a4e180ef8aeb62f5c52f7e15cff48a676b9eb76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8c853b91_3662da76",
+        "filename": "keycheck/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2019-09-26T18:36:49Z",
+      "side": 1,
+      "message": "Same",
+      "revId": "2a4e180ef8aeb62f5c52f7e15cff48a676b9eb76",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
