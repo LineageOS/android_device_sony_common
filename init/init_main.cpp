@@ -148,11 +148,15 @@ int main(int argc, char** argv)
             mknod(DEV_BLOCK_FOTA_PATH, S_IFBLK | 0600,
                     makedev(DEV_BLOCK_FOTA_MAJOR, DEV_BLOCK_FOTA_MINOR));
             mount("/", "/", NULL, MS_MGC_VAL | MS_REMOUNT, "");
-            const char* argv_extract_elf[] = { "", "-i", DEV_BLOCK_FOTA_PATH,
+            const char* argv_dd_img[] = { EXEC_TOYBOX, "dd", "if=" DEV_BLOCK_FOTA_PATH,
+                    "of=" SBIN_IMG_RECOVERY, nullptr };
+            system_exec(argv_dd_img);
+            const char* argv_extract_elf[] = { "", "-i", SBIN_IMG_RECOVERY,
                     "-o", SBIN_CPIO_RECOVERY, "-t", "/",
                     FOTA_RAMDISK_CHECK ? "-c" : "-z" };
             extract_ramdisk(sizeof(argv_extract_elf) / sizeof(const char*),
                     argv_extract_elf);
+            unlink(SBIN_IMG_RECOVERY);
         }
 
         // Recovery ramdisk
