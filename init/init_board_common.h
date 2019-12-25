@@ -26,6 +26,7 @@
 #define EXEC_TOYBOX "/sbin/toybox_init"
 #define SBIN_CPIO_ANDROID "/sbin/ramdisk.cpio"
 #define SBIN_CPIO_RECOVERY "/sbin/ramdisk-recovery.cpio"
+#define SBIN_IMG_RECOVERY "/sbin/recovery.img"
 #define SBIN_INIT_SONY "/sbin/init_sony"
 
 // Constants: keycheck commands
