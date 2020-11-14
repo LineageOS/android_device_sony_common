@@ -22,10 +22,10 @@ void ramdisk_clean_files(void)
     dir_unlink_r("/res", false);
     file_unlink_wildcard("/", "/fstab", "");
     file_unlink_wildcard("/", "", ".rc");
-    unlink("/sbin/adbd");
-    unlink("/sbin/healthd");
-    unlink("/sbin/ueventd");
-    unlink("/sbin/watchdogd");
+    unlink("/system/bin/adbd");
+    unlink("/system/bin/healthd");
+    unlink("/system/bin/ueventd");
+    unlink("/system/bin/watchdogd");
     unlink("/cache");
     unlink("/charger");
     unlink("/d");
