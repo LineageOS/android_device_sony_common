@@ -22,12 +22,12 @@
 
 // Constants: file paths
 #define BOOT_TXT "/boot.txt"
-#define EXEC_KEYCHECK "/sbin/keycheck"
-#define EXEC_TOYBOX "/sbin/toybox_init"
-#define SBIN_CPIO_ANDROID "/sbin/ramdisk.cpio"
-#define SBIN_CPIO_RECOVERY "/sbin/ramdisk-recovery.cpio"
-#define SBIN_IMG_RECOVERY "/sbin/recovery.img"
-#define SBIN_INIT_SONY "/sbin/init_sony"
+#define EXEC_KEYCHECK "/bin/keycheck"
+#define EXEC_TOYBOX "/bin/toybox_init"
+#define SBIN_CPIO_ANDROID "/bin/ramdisk.cpio"
+#define SBIN_CPIO_RECOVERY "/bin/ramdisk-recovery.cpio"
+#define SBIN_IMG_RECOVERY "/bin/recovery.img"
+#define SBIN_INIT_SONY "/bin/init_sony"
 
 // Constants: keycheck commands
 #define KEYCHECK_RECOVERY_BOOT_ONLY (KEYCHECK_PRESSED_VOLUMEDOWN << 8)
